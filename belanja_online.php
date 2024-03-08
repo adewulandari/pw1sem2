@@ -48,9 +48,9 @@
             <div class="col-md-6">
                 <h4>Daftar Harga</h4>
                 <ul class="harga-list">
-                    <li class="harga-item">TV: 3.200.000</li>
-                    <li class="harga-item">Kulkas: 4.100.000</li>
-                    <li class="harga-item">MESIN CUCI: 5.800.000</li>
+                    <li class="harga-item">TV: 4.200.000</li>
+                    <li class="harga-item">Kulkas: 3.100.000</li>
+                    <li class="harga-item">MESIN CUCI: 3.800.000</li>
                 </ul>
                 <p>Harga dapat berubah setiap saat.</p>
             </div>
@@ -63,9 +63,9 @@
             $jumlah = $_POST['jumlah'];
             $total_harga = 0;
             if ($produk == "OTVO KULKAS") {
-                $total_harga = 5100000 * $jumlah;
+                $total_harga = 3100000 * $jumlah;
             } elseif ($produk == "MESIN CUCI") {
-                $total_harga = 4800000 * $jumlah;
+                $total_harga = 3800000 * $jumlah;
             }
             echo "<h4>Nama Customer: $customer</h4>";
             echo "<p>Produk Pilihan: $produk</p>";
